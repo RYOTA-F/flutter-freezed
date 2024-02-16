@@ -4,8 +4,14 @@
 
 - dev
 
-```
+```zsh
 flutter run -d chrome
+```
+
+- freezed
+
+```zsh
+flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
 ## Docs
