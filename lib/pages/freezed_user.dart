@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_freezed/api/user.dart';
 import 'package:flutter_freezed/models/user.dart';
 
-class FreezedPage extends StatelessWidget {
-  const FreezedPage({Key? key}) : super(key: key);
+class FreezedUserPage extends StatelessWidget {
+  const FreezedUserPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

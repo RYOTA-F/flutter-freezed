@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages/freezed.dart';
+import 'pages/freezed_user.dart';
 // import 'pages/my_homepage.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FreezedPage(),
+      home: const FreezedUserPage(),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
